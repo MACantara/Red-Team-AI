@@ -16,7 +16,7 @@ class SimulationLauncher:
     def __init__(self, root):
         self.root = root
         self.root.title("Cybersecurity Simulation Launcher")
-        self.root.geometry("600x400")
+        self.root.geometry("600x700")
         self.root.configure(bg='#1e1e1e')
         
         self.setup_gui()
